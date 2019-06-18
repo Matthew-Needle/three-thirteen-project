@@ -47,6 +47,18 @@ const reset = () => {
   inputF.value = " ";
 };
 
+const caluclate = () => {
+  const field1 = document.getElementById("val-1").value;
+  const field2 = document.getElementById("val-2").innerHTML;
+
+  const result = parseFloat(field1) + parseFloat(field2);
+
+  if(!isNaN(result)){
+    document.getElementById("hand3-answer").innerHTML = result;
+  }
+};
+
+
 
 
 
