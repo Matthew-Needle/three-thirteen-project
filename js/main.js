@@ -58,6 +58,17 @@ const caluclate = () => {
   }
 };
 
+const fourth = () => {
+  const field1 = document.getElementById("hand3-answer").innerHTML;
+  const field2 = document.getElementById("val-3").value;
+
+  const result =  parseFloat(field1) + parseFloat(field2);
+
+  if(!isNaN(result)){
+    document.getElementById("hand4-answer").innerHTML = result;
+  }
+};
+
 
 
 
