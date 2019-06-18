@@ -1,3 +1,7 @@
+/*Global Variable Section*/
+
+
+
 /*Player Change Function*/
 const change = () => {
   const a = document.getElementById("name-input-a").value;
@@ -14,11 +18,54 @@ const change = () => {
   document.getElementById("name-output-f").innerHTML = f ;
 };
 
-/*Player Change Enter Button*/
+const reset = () => {
+  //Player Reset
+  const resetP1 = document.getElementById("name-output-a");
+  const resetP2 = document.getElementById("name-output-b");
+  const resetP3 = document.getElementById("name-output-c");
+  const resetP4 = document.getElementById("name-output-d");
+  const resetP5 = document.getElementById("name-output-e");
+  const resetP6 = document.getElementById("name-output-f");
+  resetP1.innerHTML = "P1";
+  resetP2.innerHTML = "P2";
+  resetP3.innerHTML = "P3";
+  resetP4.innerHTML = "P4";
+  resetP5.innerHTML = "P5";
+  resetP6.innerHTML = "P6";
+  //Player Input Reset
+  const inputA = document.getElementById("name-input-a");
+  const inputB = document.getElementById("name-input-b");
+  const inputC = document.getElementById("name-input-c");
+  const inputD = document.getElementById("name-input-d");
+  const inputE = document.getElementById("name-input-e");
+  const inputF = document.getElementById("name-input-f");
+  inputA.value = " ";
+  inputB.value = " ";
+  inputC.value = " ";
+  inputD.value = " ";
+  inputE.value = " ";
+  inputF.value = " ";
+};
+
+
+
+
+
+
+/*Buttons*/
 
 $(document).ready(()=> {
 
-  $('#enter-players').on('click', () => {
+  //Enter Players
+  $('#enter-players').on('click', ()=> {
     change();
   });
+
+  //Game Reset
+  $('#new-game').on('click', () => {
+    reset();
+  });
+
+
+
 });

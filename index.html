@@ -21,7 +21,7 @@
 
           <div class="player a">
             <h3>Player 1 Initials: </h3>
-            <input type="text" id="name-input-a"/>
+            <input type="text" id="name-input-a" class="name-input"/>
           </div>
 
           <div class="player b">
@@ -41,16 +41,20 @@
 
           <div class="player e">
             <h3>Player 5 Initials: </h3>
-            <input type="text" id="name-input-e"/>
+            <input type="text" id="name-input-e" class="name-input"/>
           </div>
 
           <div class="player f">
             <h3>Player 6 Initials: </h3>
-            <input type="text" id="name-input-f"/>
+            <input type="text" id="name-input-f" class="name-input"/>
           </div>
 
           <div id="player-submit">
-            <button type="button" id="enter-players">Enter</button>
+            <button  id="enter-players" type="button">Enter</button>
+          </div>
+
+          <div id="new-game">
+            <button id="reset" type="button">New Game</button>
           </div>
 
         </div>
@@ -441,6 +445,7 @@
 
   </div>
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
@@ -449,29 +454,8 @@
 
 
 
-<!--PLAYER OUTPUT SECTION
-
-  <div id="player-output">
-
-    <p id="name-output-a">Player 1</p> COMPLETE
-
-    <p id="name-output-b">Player 2</p>
-
-    <p id="name-output-c">Player 3</p>
-
-    <p id="name-output-d">Player 4</p>
-
-    <p id="name-output-e">Player 5</p>
-
-    <p id="name-output-f">Player 6</p>
-
-  </div> -->
-
-
 <!--*TO DO:*
 
-- FULL GRID LAYOUT
--CREATE RESET BUTTON OT RESTORE P1, P2 ETC
 -CREATE ADDITION FUNCTIONALITY
 -CREATE WINNER WITH IF ELSE
 

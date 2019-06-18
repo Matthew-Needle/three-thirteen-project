@@ -1,14 +1,25 @@
 /*Global*/
 .box{
-  width: 80px;
-  height: 80px;
-  border: 1px solid #000;
+width: 100px;
+ height: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ border: 1px solid #000;
 }
 
 .name-box{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hand-input{
+  width: 36px;
+}
+
+.point-output p{
+  float: right;
 }
 
 /*Header*/
