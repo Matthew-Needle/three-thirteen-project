@@ -47,18 +47,64 @@ const reset = () => {
   inputF.value = " ";
 };
 
-const caluclate = () => {
-  const field1 = document.getElementById("val-1").value;
-  const field2 = document.getElementById("val-2").innerHTML;
+const thirdHand = () => {
+  //Player 1 Third Hand
+  const p1Field1 = document.getElementById("p1-3-value1").value;
+  const p1Field2 = document.getElementById("p1-3-value2").innerHTML;
+  const p1Result = parseFloat(p1Field1) + parseFloat(p1Field2);
 
-  const result = parseFloat(field1) + parseFloat(field2);
-
-  if(!isNaN(result)){
-    document.getElementById("hand3-answer").innerHTML = result;
+  if(!isNaN(p1Result)){
+    document.getElementById("p1-3-answer").innerHTML = p1Result;
   }
+
+  //Player 2 Third Hand
+  const p2Field1 = document.getElementById("p2-3-value1").value;
+  const p2Field2 = document.getElementById("p2-3-value2").innerHTML;
+  const p2Result = parseFloat(p2Field1) + parseFloat(p2Field2);
+
+  if(!isNaN(p2Result)){
+    document.getElementById("p2-3-answer").innerHTML = p2Result;
+  }
+
+  //Player 3 Third Hand
+  const p3Field1 = document.getElementById("p3-3-value1").value;
+  const p3Field2 = document.getElementById("p3-3-value2").innerHTML;
+  const p3Result = parseFloat(p3Field1) + parseFloat(p3Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p3-3-answer").innerHTML = p3Result;
+  }
+
+  //Player 4 Third Hand
+  const p4Field1 = document.getElementById("p4-3-value1").value;
+  const p4Field2 = document.getElementById("p4-3-value2").innerHTML;
+  const p4Result = parseFloat(p4Field1) + parseFloat(p4Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p4-3-answer").innerHTML = p4Result;
+  }
+
+  //Player 5 Third Hand
+  const p5Field1 = document.getElementById("p5-3-value1").value;
+  const p5Field2 = document.getElementById("p5-3-value2").innerHTML;
+  const p5Result = parseFloat(p5Field1) + parseFloat(p5Field2);
+
+  if(!isNaN(p5Result)){
+    document.getElementById("p5-3-answer").innerHTML = p5Result;
+  }
+
+  //Player 6 Third Hand
+  const p6Field1 = document.getElementById("p6-3-value1").value;
+  const p6Field2 = document.getElementById("p6-3-value2").innerHTML;
+  const p6Result = parseFloat(p6Field1) + parseFloat(p6Field2);
+
+  if(!isNaN(p6Result)){
+    document.getElementById("p6-3-answer").innerHTML = p6Result;
+  }
+
 };
 
-const fourth = () => {
+/*const fourth = () => {
   const field1 = document.getElementById("hand3-answer").innerHTML;
   const field2 = document.getElementById("val-3").value;
 
@@ -67,7 +113,7 @@ const fourth = () => {
   if(!isNaN(result)){
     document.getElementById("hand4-answer").innerHTML = result;
   }
-};
+}; */
 
 
 
