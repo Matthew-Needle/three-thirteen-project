@@ -275,6 +275,63 @@ const sixthHand = () => {
 
 };
 
+const seventhHand = () => {
+  //Player 1 Seventh Hand
+  const p1Field1 = document.getElementById("p1-6-answer").innerHTML;
+  const p1Field2 = document.getElementById("p1-7-value2").value;
+  const p1Result =  parseFloat(p1Field1) + parseFloat(p1Field2);
+
+  if(!isNaN(p1Result)){
+    document.getElementById("p1-7-answer").innerHTML = p1Result;
+  };
+
+  //Player 2 Seventh Hand
+  const p2Field1 = document.getElementById("p2-6-answer").innerHTML;
+  const p2Field2 = document.getElementById("p2-7-value2").value;
+  const p2Result =  parseFloat(p2Field1) + parseFloat(p2Field2);
+
+  if(!isNaN(p2Result)){
+    document.getElementById("p2-7-answer").innerHTML = p2Result;
+  };
+
+  //Player 3 Seventh Hand
+  const p3Field1 = document.getElementById("p3-6-answer").innerHTML;
+  const p3Field2 = document.getElementById("p3-7-value2").value;
+  const p3Result =  parseFloat(p3Field1) + parseFloat(p3Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p3-7-answer").innerHTML = p3Result;
+  };
+
+  //Player 4 Seventh Hand
+  const p4Field1 = document.getElementById("p4-6-answer").innerHTML;
+  const p4Field2 = document.getElementById("p4-7-value2").value;
+  const p4Result =  parseFloat(p4Field1) + parseFloat(p4Field2);
+
+  if(!isNaN(p4Result)){
+    document.getElementById("p4-7-answer").innerHTML = p4Result;
+  };
+
+  //Player 5 Seventh Hand
+  const p5Field1 = document.getElementById("p5-6-answer").innerHTML;
+  const p5Field2 = document.getElementById("p5-7-value2").value;
+  const p5Result =  parseFloat(p5Field1) + parseFloat(p5Field2);
+
+  if(!isNaN(p5Result)){
+    document.getElementById("p5-7-answer").innerHTML = p5Result;
+  };
+
+  //Player 6 Seventh Hand
+  const p6Field1 = document.getElementById("p6-6-answer").innerHTML;
+  const p6Field2 = document.getElementById("p6-7-value2").value;
+  const p6Result =  parseFloat(p6Field1) + parseFloat(p6Field2);
+
+  if(!isNaN(p6Result)){
+    document.getElementById("p6-7-answer").innerHTML = p6Result;
+  };
+
+};
+
 
 /*Buttons*/
 
