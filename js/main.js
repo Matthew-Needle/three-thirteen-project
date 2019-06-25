@@ -455,10 +455,219 @@ const tenthHand = () => {
     document.getElementById("p1-10-answer").innerHTML = p1Result;
   };
 
+  //Player 2 Tenth Hand
+  const p2Field1 = document.getElementById("p2-9-answer").innerHTML;
+  const p2Field2 = document.getElementById("p2-10-value2").value;
+  const p2Result =  parseFloat(p2Field1) + parseFloat(p2Field2);
 
+  if(!isNaN(p2Result)){
+    document.getElementById("p2-10-answer").innerHTML = p2Result;
+  };
 
+  //Player 3 Tenth Hand
+  const p3Field1 = document.getElementById("p3-9-answer").innerHTML;
+  const p3Field2 = document.getElementById("p3-10-value2").value;
+  const p3Result =  parseFloat(p3Field1) + parseFloat(p3Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p3-10-answer").innerHTML = p3Result;
+  };
+
+  //Player 4 Tenth Hand
+  const p4Field1 = document.getElementById("p4-9-answer").innerHTML;
+  const p4Field2 = document.getElementById("p4-10-value2").value;
+  const p4Result =  parseFloat(p4Field1) + parseFloat(p4Field2);
+
+  if(!isNaN(p4Result)){
+    document.getElementById("p4-10-answer").innerHTML = p4Result;
+  };
+
+  //Player 5 Tenth Hand
+  const p5Field1 = document.getElementById("p5-9-answer").innerHTML;
+  const p5Field2 = document.getElementById("p5-10-value2").value;
+  const p5Result =  parseFloat(p5Field1) + parseFloat(p5Field2);
+
+  if(!isNaN(p5Result)){
+    document.getElementById("p5-10-answer").innerHTML = p5Result;
+  };
+
+  //Player 6 Tenth Hand
+  const p6Field1 = document.getElementById("p6-9-answer").innerHTML;
+  const p6Field2 = document.getElementById("p6-10-value2").value;
+  const p6Result =  parseFloat(p6Field1) + parseFloat(p6Field2);
+
+  if(!isNaN(p6Result)){
+    document.getElementById("p6-10-answer").innerHTML = p6Result;
+  };
 };
 
+const eleventhHand = () => {
+  //Player 1 Eleventh Hand
+  const p1Field1 = document.getElementById("p1-10-answer").innerHTML;
+  const p1Field2 = document.getElementById("p1-11-value2").value;
+  const p1Result =  parseFloat(p1Field1) + parseFloat(p1Field2);
+
+  if(!isNaN(p1Result)){
+    document.getElementById("p1-11-answer").innerHTML = p1Result;
+  };
+
+  //Player 2 Eleventh Hand
+  const p2Field1 = document.getElementById("p2-10-answer").innerHTML;
+  const p2Field2 = document.getElementById("p2-11-value2").value;
+  const p2Result =  parseFloat(p2Field1) + parseFloat(p2Field2);
+
+  if(!isNaN(p2Result)){
+    document.getElementById("p2-11-answer").innerHTML = p2Result;
+  };
+
+  //Player 3 Eleventh Hand
+  const p3Field1 = document.getElementById("p3-10-answer").innerHTML;
+  const p3Field2 = document.getElementById("p3-11-value2").value;
+  const p3Result =  parseFloat(p3Field1) + parseFloat(p3Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p3-11-answer").innerHTML = p3Result;
+  };
+
+  //Player 4 Eleventh Hand
+  const p4Field1 = document.getElementById("p4-10-answer").innerHTML;
+  const p4Field2 = document.getElementById("p4-11-value2").value;
+  const p4Result =  parseFloat(p4Field1) + parseFloat(p4Field2);
+
+  if(!isNaN(p4Result)){
+    document.getElementById("p4-11-answer").innerHTML = p4Result;
+  };
+
+  //Player 5 Eleventh Hand
+  const p5Field1 = document.getElementById("p5-10-answer").innerHTML;
+  const p5Field2 = document.getElementById("p5-11-value2").value;
+  const p5Result =  parseFloat(p5Field1) + parseFloat(p5Field2);
+
+  if(!isNaN(p5Result)){
+    document.getElementById("p5-11-answer").innerHTML = p5Result;
+  };
+
+  //Player 6 Eleventh Hand
+  const p6Field1 = document.getElementById("p6-10-answer").innerHTML;
+  const p6Field2 = document.getElementById("p6-11-value2").value;
+  const p6Result =  parseFloat(p6Field1) + parseFloat(p6Field2);
+
+  if(!isNaN(p6Result)){
+    document.getElementById("p6-11-answer").innerHTML = p6Result;
+  };
+};
+
+const twelvethHand = () => {
+  //Player 1 Twelveth Hand
+  const p1Field1 = document.getElementById("p1-11-answer").innerHTML;
+  const p1Field2 = document.getElementById("p1-12-value2").value;
+  const p1Result =  parseFloat(p1Field1) + parseFloat(p1Field2);
+
+  if(!isNaN(p1Result)){
+    document.getElementById("p1-12-answer").innerHTML = p1Result;
+  };
+
+  //Player 2 Twelveth Hand
+  const p2Field1 = document.getElementById("p2-11-answer").innerHTML;
+  const p2Field2 = document.getElementById("p2-12-value2").value;
+  const p2Result =  parseFloat(p2Field1) + parseFloat(p2Field2);
+
+  if(!isNaN(p2Result)){
+    document.getElementById("p2-12-answer").innerHTML = p2Result;
+  };
+
+  //Player 3 Twelveth Hand
+  const p3Field1 = document.getElementById("p3-11-answer").innerHTML;
+  const p3Field2 = document.getElementById("p3-12-value2").value;
+  const p3Result =  parseFloat(p3Field1) + parseFloat(p3Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p3-12-answer").innerHTML = p3Result;
+  };
+
+  //Player 4 Twelveth Hand
+  const p4Field1 = document.getElementById("p4-11-answer").innerHTML;
+  const p4Field2 = document.getElementById("p4-12-value2").value;
+  const p4Result =  parseFloat(p4Field1) + parseFloat(p4Field2);
+
+  if(!isNaN(p4Result)){
+    document.getElementById("p4-12-answer").innerHTML = p4Result;
+  };
+
+  //Player 5 Twelveth Hand
+  const p5Field1 = document.getElementById("p5-11-answer").innerHTML;
+  const p5Field2 = document.getElementById("p5-12-value2").value;
+  const p5Result =  parseFloat(p5Field1) + parseFloat(p5Field2);
+
+  if(!isNaN(p5Result)){
+    document.getElementById("p5-12-answer").innerHTML = p5Result;
+  };
+
+  //Player 6 Twelveth Hand
+  const p6Field1 = document.getElementById("p6-11-answer").innerHTML;
+  const p6Field2 = document.getElementById("p6-12-value2").value;
+  const p6Result =  parseFloat(p6Field1) + parseFloat(p6Field2);
+
+  if(!isNaN(p6Result)){
+    document.getElementById("p6-12-answer").innerHTML = p6Result;
+  };
+};
+
+const thirteenthHand = () => {
+  //Player 1 Thirteenth Hand
+  const p1Field1 = document.getElementById("p1-12-answer").innerHTML;
+  const p1Field2 = document.getElementById("p1-13-value2").value;
+  const p1Result =  parseFloat(p1Field1) + parseFloat(p1Field2);
+
+  if(!isNaN(p1Result)){
+    document.getElementById("p1-13-answer").innerHTML = p1Result;
+  };
+
+  //Player 2 Thirteenth Hand
+  const p2Field1 = document.getElementById("p2-12-answer").innerHTML;
+  const p2Field2 = document.getElementById("p2-13-value2").value;
+  const p2Result =  parseFloat(p2Field1) + parseFloat(p2Field2);
+
+  if(!isNaN(p2Result)){
+    document.getElementById("p2-13-answer").innerHTML = p2Result;
+  };
+
+  //Player 3 Thirteenth Hand
+  const p3Field1 = document.getElementById("p3-12-answer").innerHTML;
+  const p3Field2 = document.getElementById("p3-13-value2").value;
+  const p3Result =  parseFloat(p3Field1) + parseFloat(p3Field2);
+
+  if(!isNaN(p3Result)){
+    document.getElementById("p3-13-answer").innerHTML = p3Result;
+  };
+
+  //Player 4 Thirteenth Hand
+  const p4Field1 = document.getElementById("p4-12-answer").innerHTML;
+  const p4Field2 = document.getElementById("p4-13-value2").value;
+  const p4Result =  parseFloat(p4Field1) + parseFloat(p4Field2);
+
+  if(!isNaN(p4Result)){
+    document.getElementById("p4-13-answer").innerHTML = p4Result;
+  };
+
+  //Player 5 Thirteenth Hand
+  const p5Field1 = document.getElementById("p5-12-answer").innerHTML;
+  const p5Field2 = document.getElementById("p5-13-value2").value;
+  const p5Result =  parseFloat(p5Field1) + parseFloat(p5Field2);
+
+  if(!isNaN(p5Result)){
+    document.getElementById("p5-13-answer").innerHTML = p5Result;
+  };
+
+  //Player 6 Thirteenth Hand
+  const p6Field1 = document.getElementById("p6-12-answer").innerHTML;
+  const p6Field2 = document.getElementById("p6-13-value2").value;
+  const p6Result =  parseFloat(p6Field1) + parseFloat(p6Field2);
+
+  if(!isNaN(p6Result)){
+    document.getElementById("p6-13-answer").innerHTML = p6Result;
+  };
+};
 
 /*Buttons*/
 
