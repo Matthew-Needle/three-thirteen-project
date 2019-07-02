@@ -1,6 +1,13 @@
 /*Global*/
+
+html{
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-family: 'Assistant', sans-serif;
+}
+
 .box{
-width: 100px;
+ width: 100px;
  height: 100px;
  display: flex;
  flex-direction: column;
@@ -37,12 +44,60 @@ h1{
 }
 
 /*Player Input*/
-#player-input{
-  width: 15%;
+#player-enter{
+  width: 30%;
   margin-top: 10px;
   border: 1px solid #000;
 }
 
+#player-input{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.player h3{
+  margin-bottom: 5px;
+}
+
+.player input{
+  width: 115px;
+  height: 15px;
+  font-size: 14px;
+}
+
+/*Game Controls*/
+
+.game-control{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.game-control-button{
+  width: 100px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px solid #000;
+}
+
+.game-control-button h2{
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
 
 /*Grid*/
 #grid{
@@ -59,3 +114,13 @@ h1{
 
 
 /*Column One*/
+
+
+
+/*  <div id="player-submit">
+    <button  id="enter-players" type="button">Enter</button>
+  </div>
+
+  <div id="new-game">
+    <button id="reset" type="button">New Game</button>
+  </div> */

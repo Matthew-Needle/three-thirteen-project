@@ -26,12 +26,12 @@ const reset = () => {
   const resetP4 = document.getElementById("name-output-d");
   const resetP5 = document.getElementById("name-output-e");
   const resetP6 = document.getElementById("name-output-f");
-  resetP1.innerHTML = "P1";
-  resetP2.innerHTML = "P2";
-  resetP3.innerHTML = "P3";
-  resetP4.innerHTML = "P4";
-  resetP5.innerHTML = "P5";
-  resetP6.innerHTML = "P6";
+  resetP1.innerHTML = "Player 1";
+  resetP2.innerHTML = "Player 2";
+  resetP3.innerHTML = "Player 3";
+  resetP4.innerHTML = "Player 4";
+  resetP5.innerHTML = "Player 5";
+  resetP6.innerHTML = "Player 6";
   //Player Input Reset
   const inputA = document.getElementById("name-input-a");
   const inputB = document.getElementById("name-input-b");
